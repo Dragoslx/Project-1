@@ -13,7 +13,7 @@ var quotes = [
   'The Sperm 401k will be launching soon. Perfect for retirees.',
   'This contract is either vulnerable to 0xfffffffffff or it/s not.',
   'The only backdoor we/re interested in is your moms.',
-  'Remember to pitch to your old highschool friends about Sperm on facebook.",
+  'Remember to pitch to your old highschool friends about Sperm on facebook.',
   'About as safe as deep OTM options expiring in 15 seconds.',
   'Have you ever seen Sperm token and Bill Gates in the same room together?',
   'Jizz jokes are not funny. Cum on people! get serious...',
