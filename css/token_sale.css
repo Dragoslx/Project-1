@@ -14,7 +14,7 @@
 }
 
 #buy-panel {
-    background: #2f2f32;
+    background: #4596F0;
     border-radius: 15px 0px 0px 15px;
 }
 
@@ -214,7 +214,7 @@
 }
 
 #token-sale .methods p {
-    color: #999999;
+    color: #7558E9;
 }
 
 #token-sale .inverted.dimmer * {
