@@ -14,7 +14,7 @@
 }
 
 #buy-panel {
-    background: #ff9400;
+    background: #d69362;
     border-radius: 15px 0px 0px 15px;
 }
 
@@ -137,7 +137,7 @@
 }
 
 #buy-tokens {
-      color: #ff9400;
+    color: #d69362;
     background: #797979;
     width: 100%;
     display: block;
@@ -155,7 +155,7 @@
 
 .price-box, #transaction-history-container, .login-box {
     padding: 1.8em;
-      color: #ff9400;
+    color: #d69362;
     background: #797979;
     border-radius: 20px;
     box-shadow: 0px 10px 10px #0000001a;
@@ -166,7 +166,7 @@
 }
 
 .price-box.blue {
-    color: #ff9400;
+    color: #d69362;
     background: #797979;
 }
 
@@ -213,7 +213,7 @@
 }
 
 #token-sale .method.button {
-    color: #ff9400;
+    color: #d69362;
     background: #797979;
     margin-bottom: 1em;
     min-width: 220px;
