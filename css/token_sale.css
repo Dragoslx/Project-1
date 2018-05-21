@@ -209,7 +209,8 @@
 }
 
 #token-sale .method.button {
-    color: #000000;
+    color: #ff9400;
+    background: #797979;
     margin-bottom: 1em;
     min-width: 220px;
 }
