@@ -92,7 +92,7 @@
                             </div>
                             <div class="ui eight wide column when-logged-in">
                                 <div class="price-box blue token-balance">
-                                    <div class="title"><?php __('coins.epy-balance'); ?></div>
+                                    <div class="Sperm Balance</div>
                                     <div class="poh-balance value"></div>
                                 </div>
                             </div>
