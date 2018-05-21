@@ -209,12 +209,13 @@
 }
 
 #token-sale .method.button {
+    color: #000000;
     margin-bottom: 1em;
     min-width: 220px;
 }
 
 #token-sale .methods p {
-    color: #7558E9;
+    color: #ffffff;
 }
 
 #token-sale .inverted.dimmer * {
