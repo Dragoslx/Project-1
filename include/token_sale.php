@@ -241,22 +241,9 @@
                         </div>
                         <div class="ui center aligned" style="margin-top: 5em">
                             <a href="#" id="wallet-close" class="ui button huge secondary">Close</a>
+                           </div>
                         </div>
-                    </div>
-                </div>
-                <div id="donate-dimmer" class="ui dimmer">
-                    <div class="inner">
-                        <h2 class="float-left"><?php __('donate.heading'); ?></h2></br>
-                        <p><?php __('donate.description'); ?></p>
-                        <div class="center aligned actions">
-                            <input type="number" id="donate-amount" min="0" step="0.1" class="input-amount"
-                                   placeholder="<?php __('coins.eth-amount'); ?>"/>
-                            <button id="donate-action"
-                                    class="ui primary huge button"><?php __('donate.action-button'); ?></button>
-                            <button id="donate-close"
-                                    class="ui huge default button"><?php __('donate.close-button'); ?></button>
-                        </div>
-                        <p><?php __('donate.address'); ?></p>
+	              </div>
                     </div>
                 </div>
             </div>
