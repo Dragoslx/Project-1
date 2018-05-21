@@ -1,10 +1,6 @@
-<script type="text/javascript" src="js/quote.js"></script>
-
 <div id="token-sale">
     <div class="ui container center align vertical stripe heading-container">
-        <h2><?php __('coins.heading'); ?></h2>
-        <div id="quoteDisplay"></div>
-        <script>newQuote()</script>
+        <h2>SpermPonzi</h2>
     </div>
 
     <div class="ui container">
@@ -14,7 +10,7 @@
                     <div class="ui five wide column center aligned" id="buy-panel">
                         <div class="inner">
                             <div class="spinning-logo">
-                                <img src="images/spinning.gif">
+                                <img src="images/spinningsperm.gif">
                             </div>
 
 
