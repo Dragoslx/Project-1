@@ -14,7 +14,7 @@
 }
 
 #buy-panel {
-    background: #fd9a31;
+    background: #ff9400;
     border-radius: 15px 0px 0px 15px;
 }
 
@@ -41,10 +41,10 @@
     width: 100%;
     display: block;
     padding: 1em;
-    background: #3f4045;
-    color: #ffffff;
+    background: #797979;
+    color: #000000;
     border: none;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #000000;
     text-align: center;
 }
 
@@ -74,7 +74,7 @@
 .login-options p {
     font-size: 0.9em;
     margin-top: 1em;
-    color: #cccccc;
+    color: #000000;
 }
 
 #donate-dimmer p {
@@ -91,7 +91,7 @@
     font-size: 2em;
     margin: 2em auto !important;
     width: 50% !important;
-    color: #d69361;
+    color: #000000;
     text-align: center;
     background: #111111;
     display: block;
@@ -110,7 +110,7 @@
 #wallet-dimmer h4 {
     line-height: 0.9em;
     margin-top: 0;
-    color: #aaa;
+    color: #000;
 }
 
 #donate-dimmer .actions {
@@ -132,11 +132,13 @@
 
 #address-balance {
     font-size: 0.9em;
-    color: #999;
+    color: #000;
     margin-top: 0.1em;
 }
 
 #buy-tokens {
+      color: #ff9400;
+    background: #797979;
     width: 100%;
     display: block;
     margin: 1em 0 2em 0;
@@ -153,7 +155,8 @@
 
 .price-box, #transaction-history-container, .login-box {
     padding: 1.8em;
-    background: #404040;
+      color: #ff9400;
+    background: #797979;
     border-radius: 20px;
     box-shadow: 0px 10px 10px #0000001a;
 }
@@ -163,11 +166,12 @@
 }
 
 .price-box.blue {
-    background-color: #384b57;
+    color: #ff9400;
+    background: #797979;
 }
 
 .price-box.green, .login-box.green {
-    background: #3e596b;
+    background: #797979;
 }
 
 .price-box .title, .login-box .title {
@@ -216,11 +220,11 @@
 }
 
 #token-sale .methods p {
-    color: #ffffff;
+    color: #000000;
 }
 
 #token-sale .inverted.dimmer * {
-    color: #444444 !important;
+    color: #403d3d !important;
 }
 
 #token-sale .dimmer .inner {
