@@ -92,7 +92,7 @@
                             </div>
                             <div class="ui eight wide column when-logged-in">
                                 <div class="price-box blue token-balance">
-                                    <div class="Sperm Balance</div>
+					<div> Sperm Balance </div>
                                     <div class="poh-balance value"></div>
                                 </div>
                             </div>
