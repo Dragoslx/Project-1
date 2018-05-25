@@ -1,6 +1,5 @@
 // CONSTANTS
 var contractAddress = '0x2Fa0ac498D01632f959D3C18E38f4390B005e200'
-var donationAddress = '0x25dd53e2594735b38a4646f62e5b65b4e4aa42bb'
 
 // GLOBALS
 var web3Mode = null
@@ -371,7 +370,7 @@ function copyToClipboard (text) {
 
 function updateEthPrice () {
   clearTimeout(ethPriceTimer)
-  if( currency === 'EPY' ){
+  if( currency === 'SPERM' ){
     ethPrice = 1 / (sellPrice + ((buyPrice - sellPrice) / 2))
     ethPriceTimer = setTimeout(updateEthPrice, 10000)
   } else {
@@ -907,7 +906,7 @@ function updateData () {
 
     contract.balanceOf(currentAddress, function (e, r) {
       const tokenAmount = (r / 1e18 * 1000)
-      $('.poh-balance').text(tokenAmount.toFixed(4) + ' EPY')
+      $('.poh-balance').text(tokenAmount.toFixed(4) + ' SPERM')
       contract.getEtherForTokens(r, function (e, r) {
         let bal = convertWeiToEth(r * 0.9)
         $('.poh-value').text(bal.toFixed(4) + ' ETH')
