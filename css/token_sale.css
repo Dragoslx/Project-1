@@ -176,11 +176,11 @@
 
 .price-box .title, .login-box .title {
     color: #d69361 !important;
-    font-size: 1.2em;
+    font-size: 1.em;
 }
 
 .price-box .value, .login-box .value {
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 2em;
     font-weight: 700;
     transition: color 0.5s ease;
@@ -188,7 +188,7 @@
 }
 
 .price-box .value-usd, .login-box .value-usd {
-    color: #b7b7b7;
+    color: #3eda1e;
 }
 
 .poh-value {
