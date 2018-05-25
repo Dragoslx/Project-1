@@ -63,12 +63,8 @@
                             </div>
 
                             <a href="#" id="history-toggle"
-                               class="when-logged-in"><?php __('coins.history.toggle'); ?></a>
-
-                            <div class="when-logged-in">
-                                <a href="#" id="donate-open"><?php __('donate.open-button'); ?></a>
-                            </div>
-
+			       class="when-logged-in"><?php __('coins.history.toggle'); ?></a>
+				
                             <div class="when-wallet-web">
                                 <a href="#" id="wallet-open">Wallet Management</a>
                             </div>
