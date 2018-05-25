@@ -370,7 +370,7 @@ function copyToClipboard (text) {
 
 function updateEthPrice () {
   clearTimeout(ethPriceTimer)
-  if( currency === 'SPERM' ){
+  if( currency === 'EPY' ){
     ethPrice = 1 / (sellPrice + ((buyPrice - sellPrice) / 2))
     ethPriceTimer = setTimeout(updateEthPrice, 10000)
   } else {
@@ -906,7 +906,7 @@ function updateData () {
 
     contract.balanceOf(currentAddress, function (e, r) {
       const tokenAmount = (r / 1e18 * 1000)
-      $('.poh-balance').text(tokenAmount.toFixed(4) + ' SPERM')
+      $('.poh-balance').text(tokenAmount.toFixed(4) + ' EPY')
       contract.getEtherForTokens(r, function (e, r) {
         let bal = convertWeiToEth(r * 0.9)
         $('.poh-value').text(bal.toFixed(4) + ' ETH')
