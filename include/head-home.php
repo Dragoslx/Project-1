@@ -42,14 +42,4 @@
       })(window, document, 'script', 'dataLayer', 'GTM-P2FJV5S')</script>
     <!-- End Google Tag Manager -->
 </head>
-
-        <!-- Jumbotron -->
-        <div class="ui text container jumbotron">
-            <img width="350" height="350" class="logo" src="images/BannerLogo.png" alt="EthPyramid Logo">
-            <h2><?php __('index.header.title'); ?></h2>
-            <a href="coins.html" class="ui huge primary button"><?php __('index.header.buy-in'); ?><i class="right arrow icon"></i></a>
-            <a href="https://etherscan.io/address/0x2fa0ac498d01632f959d3c18e38f4390b005e200"
-               class="ui huge default button"><?php __('index.header.contract'); ?></a>
-        </div>
-
     </div>
